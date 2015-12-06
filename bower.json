@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+  "toastr": "~2.0.1",
+  "angular": "~1.2.16",
+  "angular-route": "~1.2.16",
+	"font-awesome"
+  }
+}
