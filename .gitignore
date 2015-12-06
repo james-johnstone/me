@@ -1,0 +1,14 @@
+# Packages
+packages/
+node_modules/
+bower_components/
+
+# Log & Bak files
+*.[Ll]og
+
+# KDiff3
+*.orig
+
+# ignore css / min
+*.css
+*.min
