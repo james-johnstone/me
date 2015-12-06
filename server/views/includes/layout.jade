@@ -5,7 +5,11 @@ html(ng-app='app')
 		title JJ
 		meta(name='viewport', content='width=device-width, initial-scale=1')
 		link(href="/flavicon.ico", rel="shortcur icon", type="image/x-icon")
-		link(rel="stylesheet", href="/css/app.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Architects+Daughter")
+		link(rel="stylesheet", href="/bower_components/font-awesome/css/font-awesome.min.css")
+		link(rel="stylesheet", href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
+		link(rel="stylesheet", href="/css/dist/app.css")
 	body
+		include header
 		block main-content
 	include scripts
